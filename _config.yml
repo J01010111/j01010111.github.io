@@ -14,8 +14,8 @@ urls:
       url: /whoami
     - text: blog
       url: /blog
-#    - text: Cursos
-#      url: /cursos
+    - text: contact
+      url: /contact
 #    - text: YouTube
 #      url: {{https://youtube.com}}
 # Edit Author details (For multi authors check _data/authors.yml)
@@ -32,27 +32,27 @@ hero_cover_img: back.jpg
 
 # Experiences
 author_work_experiences:
-            - company_name: Open-Sec
-              company_logo: opensec.png
-              company_url: https://open-sec.com
-              designation: Pentester
-              description: Trabajo como Pentester en Open-sec.
-              visibility: true
-            - company_name: Udemy
-              company_logo: udemy.svg
-              company_url: https://udemy.com
-              designation: Profesor
-              description: Soy instructor de cursos orientados a hacking ético y linux.
-              visibility: true
+            - company_name:
+              company_logo:
+              company_url:
+              designation:
+              description:
+              visibility: false
+            - company_name:
+              company_logo:
+              company_url:
+              designation:
+              description:
+              visibility: false
 
 # Education
 author_education_details:
-              - college_logo: uncaus.svg
-                college_name: UNCAus
+              - college_logo:
+                college_name:
                 college_url:
-                college_degree: Analista de Sistemas
+                college_degree:
                 description:
-                visibility: true
+                visibility: false
 
 # Projects
 author_project_details:
