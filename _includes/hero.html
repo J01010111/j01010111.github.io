@@ -1,0 +1,43 @@
+<style>
+    /* change cover_img in config.yml */
+    .jumbotron {
+        position: relative;
+        background-color: var(--main-background-color) !important;
+        background-image: url("/assets/img/{{site.hero_cover_img}}");
+        text-align: center;
+        /*         background-attachment: scroll;*/
+        background-size: cover;
+        background-position: center;
+    }
+    .jumbotron-btns {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .jumbotron-heading,
+    .lead {
+        color: #fff;
+    }
+    .author-profile-img {
+        position: relative;
+    }
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        z-index: 0;
+    }
+</style>
+
+<!-- home hero section -->
+<div class="jumbotron">
+    <div id="particles-js"></div>
+    <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}" />
+    <p class="jumbotron-heading"><strong>¡Hola, crack bienvenido al Olimpo!</strong></p>
+    <strong><p class="lead" id="typewriteText"></p></strong>
+    <!--     </div> -->
+</div>
