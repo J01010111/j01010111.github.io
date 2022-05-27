@@ -11,7 +11,7 @@ layout: default
 <div class="row">
   <div class="col-md-4">
     <div class="card">
-      <div class="card-header"><strong>Acerca de {{site.author}}</strong></div>
+      <div class="card-header"><strong>about {{site.author}}</strong></div>
       <div class="card-body">
         <p class="author_bio">{{ site.author_bio }}</p>
         {%- include github_star_button.html -%}
@@ -20,7 +20,7 @@ layout: default
   </div>
   <div class="col-md-4">
     <div class="card">
-      <div class="card-header"><strong>Categorías</strong></div>
+      <div class="card-header"><strong>categories</strong></div>
       <div class="card-body text-dark">
         {%- include blog_categories.html -%}
       </div>
@@ -28,7 +28,7 @@ layout: default
   </div>
   <div class="col-md-4">
     <div class="card">
-      <div class="card-header"><strong>Enlaces útiles</strong></div>
+      <div class="card-header"><strong>usefull</strong></div>
       <div class="card-body text-dark">
         {% for i in site.urls %}
         <li>
@@ -39,4 +39,3 @@ layout: default
     </div>
   </div>
 </div>
-

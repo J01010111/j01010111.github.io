@@ -1,6 +1,5 @@
 ---
-title: Acerca de mí
+title: about me
 layout: about-me
 permalink: /whoami/
 ---
-

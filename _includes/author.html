@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-header">
-        Acerca de {{author.name}}
+        about {{author.name}}
     </div>
     <div class="card-body">
         <div class="row">
@@ -13,8 +13,8 @@
                 </div>
                 <div class="col-md-6">
                         <p class="author_bio">{{author.bio}}</p>
-                        <p>Email : {{author.email}}</p>
-                        <p>Página Web : {{author.site}}</p>
+                        <p>email : {{author.email}}</p>
+                        <p>webpage : {{author.site}}</p>
                         <p class="profile-links">
                             {% for network in author.social %}
                                 <a class="social-link" href="{{ network.url }}" target="_blank"><i class="fab fa-{{ network.title }} fa-fw"></i></a>

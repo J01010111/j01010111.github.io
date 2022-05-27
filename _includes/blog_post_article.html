@@ -3,7 +3,7 @@
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <h4 class="post-meta">{{ page.summary }}</h4>
     <p class="post-summary">
-      Publicado por: {% if page.author %}
+      shared by: {% if page.author %}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
         <span itemprop="name"><a href="{{site.url}}{{site.baseurl}}/blog/authors/{{page.author}}">{{ page.author }}</a></span> </span
       >{% endif %} el
