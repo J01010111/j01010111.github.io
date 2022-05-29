@@ -93,12 +93,12 @@ layout: default
       {% endif %}
     </div>
 
-    <div class="card">
+<!--   <div class="card">
       <h1>Skills</h1>
 
       {%- include author_skills.html -%}
-    </div>
-
+    </div>-->
+    
     {% if site.wakatime_username %}
     <div class="card">
       <h1>Coding Activity</h1>
@@ -115,7 +115,7 @@ layout: default
     </div>
     {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
-     <!-- <h1 class="card-title">Projects</h1> 
+     <!-- <h1 class="card-title">Projects</h1>
       <br />
        {% for project in site.author_project_details %} {% if project.visibility
       == true %}
