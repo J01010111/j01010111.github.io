@@ -112,12 +112,12 @@ ul {
 
 /* Progress bar */
 .progressline .bar {
-    background: #161B32;
+    background: #FFFFFF;
 }
 
 /* On scroll progress bar */
 #progress-bar {
-    background: linear-gradient(to right, #161B32 var(--progress), transparent 0);
+    background: linear-gradient(to right, #FFFFFF var(--progress), transparent 0);
     height: 4px;
     position: fixed;
     width: 100%;
