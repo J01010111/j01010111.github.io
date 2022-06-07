@@ -1,7 +1,7 @@
-title: "J01010111"
+title: "$J01010111_"
 subtitle: "infosec"
 description: >- # this means to ignore newlines until "baseurl:"
-  "J01010111's blog."
+  "$J01010111_'s blog."
 
 url: "https://j01010111.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -21,7 +21,7 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: "J01010111"
+author: "$J01010111_"
 author_bio: "Hi, my name is Jonathan. I built this site to practice my English skills and share content of infosec. All thoughts and opinions expressed here are my own, and may not be representative of my employer, or any other entity unless I am specifically quoting someone. This website and content included is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement."
 #author_email: "paquequieresmicorreo@gmail.com"
 author_location: Argentina
