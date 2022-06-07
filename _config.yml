@@ -14,7 +14,7 @@ urls:
       url: /whoami
     - text: "/blog"
       url: /blog
-#    - text: contact
+#    - text: /buymeacoffee :)
 #      url: /contact
 #    - text: YouTube
 #      url: {{https://youtube.com}}
@@ -23,7 +23,7 @@ urls:
 author_logo: profile.png
 author: "$J01010111_"
 author_bio: "Hi, my name is Jonathan. I built this site to practice my English skills and share content of infosec. All thoughts and opinions expressed here are my own, and may not be representative of my employer, or any other entity unless I am specifically quoting someone. This website and content included is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement."
-#author_email: "paquequieresmicorreo@gmail.com"
+#author_email: "john@doe"
 author_location: Argentina
 author_website_url: "https://j01010111.github.io"
 typewrite-text: "welcome to my blog, here you can find posts about infosec and IT."
@@ -78,7 +78,7 @@ github_username:  "j01010111"
 #telegram_username: johndoe
 #dribbble_username: johndoe
 #flickr_username: johndoe
-#youtube_username: juankaenel
+#youtube_username: johndoe
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
@@ -155,6 +155,7 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
  # - jekyll-admin
 
 # Jekyll Admin Config
