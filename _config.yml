@@ -155,7 +155,6 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-multiple-languages-plugin
  # - jekyll-admin
 
 # Jekyll Admin Config
