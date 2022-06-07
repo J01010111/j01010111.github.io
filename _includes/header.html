@@ -67,6 +67,15 @@
                 <i class="fa fa-search search-icon" aria-hidden="true"></i>
             </a>
         </li>
+        <li class="nav-item">
+            {% if site.lang == "es" %}
+              {% capture link1 %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
+              <a href="{{ link1 }}" class="lang-switcher spanish" title="español"><img src="en.webp"/>{% t global.en %}</a>
+            {% elsif site.lang == "en" %}
+              {% capture link2 %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+              <a href="{{ link2 }}" class="lang-switcher english" title="english"><img src="es.webp"/>{% t global.es %}</a>
+            {% endif %}
+      </li>
     </ul>
 </nav>
 
