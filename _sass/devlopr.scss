@@ -54,7 +54,7 @@ html[data-theme="light"] {
         --light-border-color: hsl(0, 0%, 30%);
         --light-text-color: rgb(199, 199, 204);
         --link-color: #dddd48;
-        --nav-color: #ffffff;
+        --nav-color: #ffbd59;
         --search-color: #dddd48;
         --nav-link-color: rgba(255, 255, 255, 0.5);
         --link-color-visited: hsl(250, 100%, 60%);
@@ -76,7 +76,7 @@ html[data-theme="light"] {
         --light-border-color: rgb(230, 230, 230);
         --light-text-color: rgb(72, 72, 74);
         --link-color: #ca6521;
-        --nav-color: #ffffff;
+        --nav-color: #ffbd59;
         --nav-link-color: #111111;
         --search-color: #ababab;
         --link-color-visited: hsl(250, 100%, 37%);
@@ -313,11 +313,11 @@ header {
 }
 
 .navbar-dark .navbar-brand {
-    color: #ffffff !important;
+    color: #ffbd59 !important;
 }
 
 .navbar-dark .navbar-toggler{
-    color: #ffffff !important;
+    color: #ffbd59 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -328,7 +328,7 @@ header {
 
 
 a:hover {
-    color: #ffffff !important;
+    color: #ffbd59 !important;
     text-decoration: none !important;
 }
 
