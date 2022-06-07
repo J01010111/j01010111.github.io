@@ -1,8 +1,8 @@
 ---                                                                                                                                             
 layout: post
-title: "Instalación y uso de FFUF - Fuzzing" 
-summary: "En esta ocasión te enseño como usar e instalar la herramienta FFUF para el Fuzzing"
-author: r4z0r                                                                                                                                   
+title: "Basic forensics 1"
+summary: "En este post vamos a estar cubriendo los aspectos básicos previos a la realización de un análisis forense"
+author: J01010111                                                                                                                         
 date: '2021-11-05 09:15:23 +0530'                                                                                                               
 category: ['fuzzing','HackingTools']                                                                                  
 thumbnail: /assets/img/posts/fuzzing/ffuf/fondo.jpg
@@ -52,8 +52,5 @@ También pueden ir jugando con -t para agregarle hilos aunque no les recomiendo 
 Buenísimo si llegaste hasta acá espero que te haya gustado esta herramienta y la puedas probar. Después me cuentas como te ha ido con la herramienta y si ya vas a dejar de utilizar Wffuz y gobuster todavía 😂.
 
 Compártelo con tus amigos y sigue aprendiendo de este hermoso mundo del hacking, te veo luego.
- 
+
 [R4z0r](https://juankaenel.github.io) 👨‍💻
-
-
-
