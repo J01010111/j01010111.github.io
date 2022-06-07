@@ -8,11 +8,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: ">_home"
+    - text: "/home"
       url: /
-    - text: ">_whoami"
+    - text: "/whoami"
       url: /whoami
-    - text: ">_blog"
+    - text: "/blog"
       url: /blog
 #    - text: contact
 #      url: /contact
