@@ -112,12 +112,12 @@ ul {
 
 /* Progress bar */
 .progressline .bar {
-    background: #FFFFFF;
+    background: #ffbd59;
 }
 
 /* On scroll progress bar */
 #progress-bar {
-    background: linear-gradient(to right, #ffffff var(--progress), transparent 0);
+    background: linear-gradient(to right, #ffbd59 var(--progress), transparent 0);
     height: 4px;
     position: fixed;
     width: 100%;
@@ -720,7 +720,7 @@ a {
 }
 
 .lg-progress-bar .lg-progress {
-    background-color: #ffffff !important;
+    background-color: #ffbd59 !important;
     height: 4px;
     width: 0;
 }
