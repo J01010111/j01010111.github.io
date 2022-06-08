@@ -22,8 +22,11 @@ urls:
 
 author_logo: profile.png
 author: "$J01010111_"
-author_bio: "Hi, my name is Jonathan. I built this site to practice my English skills and share content of infosec."
+author_bio: "Hi, my name is Jonathan. I built this site to practice my English skills and share content about infosec."
 author_disclaimer: "All thoughts and opinions expressed here are my own, and may not be representative of my employer, or any other entity unless I am specifically quoting someone. This website and content included is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement."
+author_product_mentions: "There are many security tools, products, and services on the market today and I utilise many on a daily basis. Any mention of a particular tool, product, or service is on my own accord and is no way sponsored unless otherwise stated."
+author_contact: ""
+author_share: "Absolutely, provided you give attribution. Consider the work here licensed under the Creative Commons Attribution 4.0 International License."
 #author_email: "john@doe"
 author_location: Argentina
 author_website_url: "https://j01010111.github.io"
@@ -107,7 +110,7 @@ permalink: pretty
 # Choose what to show ( can be true or false)
 show_author_work_experiences: false
 show_author_education_details: false
-show_author_project_details: true
+show_author_project_details: false
 
 # pagination of posts
 paginate: 4

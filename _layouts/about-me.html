@@ -120,7 +120,26 @@ layout: default
       <h1 class="card-title">disclaimer</h1>
       <p>{{ site.author_disclaimer }}</p>
     </div>
-    {% endif %} {% if site.show_author_project_details == true %}
+    {% endif %}
+    {% if site.author_product_mentions %}
+    <div class="card">
+      <h1 class="card-title">product mentions</h1>
+      <p>{{ site.author_project_details }}</p>
+    </div>
+    {% endif %}
+    {% if site.author_contact %}
+    <div class="card">
+      <h1 class="card-title">can i contact you?</h1>
+      <p>{{ site.author_contact }}</p>
+    </div>
+    {% endif %}
+    {% if site.author_share %}
+    <div class="card">
+      <h1 class="card-title">can i share your work?</h1>
+      <p>{{ site.author_share }}</p>
+    </div>
+    {% endif %}
+    {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
      <h1 class="card-title">Projects</h1>
       <br />
