@@ -22,7 +22,8 @@ urls:
 
 author_logo: profile.png
 author: "$J01010111_"
-author_bio: "Hi, my name is Jonathan. I built this site to practice my English skills and share content of infosec. All thoughts and opinions expressed here are my own, and may not be representative of my employer, or any other entity unless I am specifically quoting someone. This website and content included is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement."
+author_bio: "Hi, my name is Jonathan. I built this site to practice my English skills and share content of infosec."
+author_disclaimer: "All thoughts and opinions expressed here are my own, and may not be representative of my employer, or any other entity unless I am specifically quoting someone. This website and content included is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement."
 #author_email: "john@doe"
 author_location: Argentina
 author_website_url: "https://j01010111.github.io"
@@ -60,12 +61,12 @@ author_project_details:
                 project_title: Gamers Hub
                 project_description: A Platform built for Gamers and Game Devs
                 project_url: https://gamershub.in
-                visibility: true
+                visibility: false
               - project_thumbnail: hack4r.PNG
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
-                visibility: true
+                visibility: false
 
 # social links
 twitter_username: "j01010111"

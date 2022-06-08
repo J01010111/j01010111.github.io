@@ -8,7 +8,7 @@ $text-width: 650px;
 
 html[data-theme="dark"] {
     --bold-color: rgb(188, 188, 188);
-    --box-background-color: hsl(0, 0%, 20%);
+    --box-background-color: rgb(22, 30, 45);
     --highlight-color: hsl(0, 0%, 60%);
     --light-border-color: hsl(0, 0%, 30%);
     --light-text-color: rgb(199, 199, 204);
@@ -19,7 +19,7 @@ html[data-theme="dark"] {
     --medium-text-color: hsl(0, 0%, 70%);
     --underline-color: hsl(0, 0%, 50%);
     --social-link-color: #ffbd59;
-    --card-background-color: rgb(28 , 37, 56);
+    --card-background-color:  rgb(22, 30, 45);
     --newsletter-background-color: #222324;
     --button-background-color: #111;
 }
@@ -49,7 +49,7 @@ html[data-theme="light"] {
     html,
     html[data-theme="dark"] {
         --bold-color: rgb(188, 188, 188);
-        --box-background-color: hsl(0, 0%, 20%);
+        --box-background-color: rgb(22, 30, 45);
         --highlight-color: hsl(0, 0%, 60%);
         --light-border-color: hsl(0, 0%, 30%);
         --light-text-color: rgb(199, 199, 204);
@@ -63,7 +63,7 @@ html[data-theme="light"] {
         --medium-text-color: hsl(0, 0%, 70%);
         --underline-color: hsl(0, 0%, 50%);
         --social-link-color: #ffbd59;
-        --card-background-color: rgb(32, 32, 34);
+        --card-background-color: rgb(22, 30, 45);
         --newsletter-background-color: #222324;
         --button-background-color: #111;
     }

@@ -111,12 +111,18 @@ layout: default
   <div class="col-lg-8">
     {% if site.author_bio %}
     <div class="card">
-      <h1 class="card-title">Whoami</h1>
+      <h1 class="card-title">whoami</h1>
       <p>{{ site.author_bio }}</p>
+    </div>
+    {% endif %}
+    {% if site.author_disclaimer %}
+    <div class="card">
+      <h1 class="card-title">disclaimer</h1>
+      <p>{{ site.author_disclaimer }}</p>
     </div>
     {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
-     <!-- <h1 class="card-title">Projects</h1>
+     <h1 class="card-title">Projects</h1>
       <br />
        {% for project in site.author_project_details %} {% if project.visibility
       == true %}
@@ -140,7 +146,7 @@ layout: default
       </div>
       <br />
       {% endif %} {% endfor %}
-    </div> -->
+    </div>
     {% endif %} {% if site.show_author_work_experiences == true %}
     <div class="card">
       <h1 class="card-title">Experiencia de trabajo</h1>
